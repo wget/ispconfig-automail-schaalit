@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `mail_config` (
+  `config_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `sys_userid` int(11) unsigned NOT NULL DEFAULT '0',
+  `sys_groupid` int(11) unsigned NOT NULL DEFAULT '0',
+  `sys_perm_user` varchar(5) NOT NULL DEFAULT '',
+  `sys_perm_group` varchar(5) NOT NULL DEFAULT '',
+  `sys_perm_other` varchar(5) NOT NULL DEFAULT '',
+  `server_id` int(11) unsigned NOT NULL DEFAULT '0',
+  `email_provider` varchar(255) NOT NULL DEFAULT '',
+  `display_name` varchar(255) NOT NULL DEFAULT 'Powered by Automail for ISPConfig from schaal @it',
+  `in_hostname` varchar(255) NOT NULL,
+  `out_hostname` varchar(255) NOT NULL,
+  `imap_port` int(11) NOT NULL DEFAULT '143',
+  `pop3_port` int(11) NOT NULL DEFAULT '110',
+  `smtp_port` int(11) NOT NULL DEFAULT '587',
+  `use_ssl_in` enum('y','n') NOT NULL DEFAULT 'y',
+  `use_ssl_out` enum('y','n') NOT NULL DEFAULT 'y',
+  `active` enum('n','y') NOT NULL DEFAULT 'y',
+  PRIMARY KEY (`config_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

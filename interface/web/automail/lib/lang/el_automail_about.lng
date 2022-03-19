@@ -1,0 +1,7 @@
+<?php
+$wb['about_txt'] = 'About';
+$wb['version_txt'] = 'Version: ';
+$wb['latest_txt'] = 'Latest: ';
+$wb['support_txt'] = 'Support: ';
+$wb['support_url'] = 'https://schaal-it.com/ispconfig-automail';
+?>

@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule autodiscover\.xml$ /index.php [L]
+RewriteRule Autodiscover\.xml$ /index.php [L]
+RewriteRule config-v1\.1\.xml$ /index.php [L]
+</IfModule>
+<Files config.php>
+Deny from All
+</Files>
+

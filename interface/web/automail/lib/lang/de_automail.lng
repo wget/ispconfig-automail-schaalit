@@ -1,0 +1,24 @@
+<?php
+$wb['Config']= 'Config';
+$wb['title'] = 'Mailserver';
+$wb['server_id_txt'] = 'Mailserver';
+$wb['email_provider_txt'] = 'Provider-ID';
+$wb['email_provider_note_txt'] = 'eindeutige ID';
+$wb['display_name_txt'] = 'Anzeigename';
+$wb['display_name_note_txt'] = 'Beschreibung des Providers';
+$wb['in_hostname_txt'] = 'Hostname IMAP/POP3';
+$wb['in_hostname_note_txt'] = '';
+$wb['out_hostname_txt'] = 'Hostname SMTP';
+$wb['out_hostname_note_txt'] = '';
+$wb['imap_port_txt'] = 'IMAP Port';
+$wb['imap_port_note_txt'] = '';
+$wb['pop3_port_txt'] = 'POP3 Port';
+$wb['pop3_port_note_txt'] = '';
+$wb['smtp_port_txt'] = 'SMTP Port';
+$wb['smtp_port_note_txt'] = '';
+$wb['use_ssl_in_txt'] = 'SSL IMAP/POP3';
+$wb['use_ssl_in_note_txt'] = '';
+$wb['use_ssl_out_txt'] = 'SSL SMTP';
+$wb['use_ssl_out_note_txt'] = '';
+$wb['active_txt'] = 'Aktiv';
+?>
